@@ -1,0 +1,7 @@
+#!/bin/bash
+mkdir -p /tmp/my_first_directory
+if [ -d /tmp/my_first_directory ]; then
+  echo "Directory /tmp/my_first_directory was created successfully."
+else
+  echo "Failed to create directory /tmp/my_first_directory."
+fi
