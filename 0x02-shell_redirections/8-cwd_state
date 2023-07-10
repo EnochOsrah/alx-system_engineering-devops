@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "ls -la" > ls_cwd-context
+echo "ls -la" > "ls_cwd-content"
